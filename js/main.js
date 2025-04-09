@@ -1,12 +1,11 @@
-const titleEl = document.getElementById ("main-title");
-titleEl.innerHTML = `Titolo by <span class="text-warning">Java</span>`
 
-console.log(titleEl);
+const imgEl = document.querySelector(".my-img");
+imgEl.className="my-img";
+imgEl.src="./img/white_lamp.png";
+imgEl.alt="immagine-1";
+console.log(imgEl.className);
+console.log(imgEl.src);
+console.log(imgEl.alt);
 
-// titleEl.classList.remove("bg-danger");
-
-//titleEl.classList.add("bg-success");
 
 
-
- 
